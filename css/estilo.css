@@ -1,0 +1,131 @@
+/*css 09:03*/
+/*---- va por 20:04 ----*/
+/*-- https://www.youtube.com/watch?v=6XesvFZUld0&t=231s--*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color:rgb(104, 169, 222);
+}
+.container{
+    display: flex;
+    background-color: white;
+    height: 800px;
+    width: 1000px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 25px;
+}
+
+.form {
+    padding: 30px 80px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form h2 {
+    font-size: 45px;
+    text-transform: capitalize;
+    color: #8b2fc9;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.form p {
+    font-size: 17px;
+    color: rgb(54, 71, 102);
+    margin-bottom: 25px;
+}
+
+label {
+    font-size: 15px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.box{
+    border: 0;
+    background-color: rgb(187, 235, 235);
+    outline: none;
+    padding: 13px;
+    border-radius: 25px;
+    margin-bottom: 15px;
+}
+
+.sutmit{
+    background-color:rgb(104, 169, 222);
+    border: 0;
+    padding: 15px;
+    border-radius: 25px;
+    font-size: 16px;
+    color: white;
+    text-transform: capitalize;
+}
+
+.info{
+    padding: 50px;
+}
+
+.info img {
+    width: 350px;
+    margin-bottom: 75px;
+}
+
+.locations{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+.icons {
+    display: flex;
+    margin-top: 35px;
+}
+
+.icons img{
+    width: 25px;
+    margin-bottom: 10px;
+}
+
+.icons p {
+    font-size: 14px;
+    color: black;
+    margin-left: 30px;
+}
+
+.social{
+    display: flex;
+    
+}
+
+.social img{
+    width: 50px;
+    margin-right: 30px;
+}
+
+/*---------reponsive--------------*/
+@media(max-width:990px){
+    .container{
+        width: 400px;
+        height: 800px;
+        margin-top: 50px;
+    }
+
+    .info{
+        display: none;
+    }
+
+    .form{
+        width: 100%;
+        padding: 30px;
+    }
+}
